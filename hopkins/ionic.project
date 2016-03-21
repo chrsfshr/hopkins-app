@@ -1,0 +1,12 @@
+{
+  "name": "hopkins",
+  "app_id": "302460af",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
