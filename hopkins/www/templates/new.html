@@ -1,6 +1,6 @@
 <ion-view view-title="New Client Checklist">
 	<ion-content>
-		<div class="list card">
+		<div class="list card" ng-controller="EngageCtrl">
 			<div class="item item-avatar">
 				<img src="img/checkmark-circle.svg">
 				<h2>Client Engagement Letter</h2>
@@ -12,13 +12,13 @@
 					Thank you for selecting HOPKINS & ASSOCIATES, LLC to assist you with your tax affairs. This letter confirms the terms of our engagement with you and the nature and extent of services we will provide.
 				</p>
 			</div>
-			<a class="item item-icon-left assertive" href="#">
+			<a class="item item-icon-left assertive" ng-click="openInAppBrowser()">
 				<i class="icon ion-ios-arrow-thin-right"></i>
 				View Print and Sign Letter
 			</a>
 		</div>
 
-		<div class="list card">
+		<div class="list card" ng-controller="ClientTaxCtrl">
 			<div class="item item-avatar">
 				<img src="img/checkmark-circle.svg">
 				<h2>Client Tax Organizer</h2>
@@ -30,13 +30,13 @@
 					As a first time client, and so we can provide you with the quickest most accurate TAX refund experience. Please complete this form in it’s entirety to the best of your knowledge. The average time for completing the organizer is 10 - 20 min.
 				</p>
 			</div>
-			<a class="item item-icon-left assertive" href="#">
+			<a class="item item-icon-left assertive" ng-click = "openBrowser()">
 				<i class="icon ion-ios-arrow-thin-right"></i>
 				Complete Tax Organizer
 			</a>
 		</div>
 
-		<div class="list card">
+		<div class="list card" ng-controller="UploadCtrl">
 			<div class="item item-avatar">
 				<img src="img/checkmark-circle.svg">
 				<h2>Upload Documents</h2>
@@ -48,13 +48,13 @@
 					Prepare for our meeting by gathering all documents pertaining income. Using our mobile app you can take a picture of these documents to SmartVault and expedite the your return process.
 				</p>
 			</div>
-			<a class="item item-icon-left assertive" href="#">
+			<a class="item item-icon-left assertive" ng-click="openInAppBrowser()">
 				<i class="icon ion-ios-arrow-thin-right"></i>
 				Upload Documents Now
 			</a>
 		</div>
 
-		<div class="list card">
+		<div class="list card" ng-controller="ScheduleCtrl">
 			<div class="item item-avatar">
 				<img src="img/checkmark-circle.svg">
 				<h2>Schedule Appointment</h2>
@@ -66,7 +66,7 @@
 					Review the openings we have available, to schedule a time that works best for you. You will get a notification by text message and email confirming your appointment so you have peace of mind when it’s time to file.
 				</p>
 			</div>
-			<a class="item item-icon-left assertive" href="#">
+			<a class="item item-icon-left assertive" ng-click="openInAppBrowser()">
 				<i class="icon ion-ios-arrow-thin-right"></i>
 				Schedule Your Appointment Now
 			</a>

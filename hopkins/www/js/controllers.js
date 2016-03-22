@@ -41,16 +41,40 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
+
+.controller('EngageCtrl', function($scope) {
+  $scope.openInAppBrowser = function()
+    {
+      // Open in app browser
+      window.open('http://www.hopkinstaxaccounting.com/wp-content/uploads/2014/04/Form-1040-Engagement-Letter.pdf','_blank'); 
+    };
 })
+
+.controller('ClientTaxCtrl', function($scope) {
+  $scope.openInAppBrowser = function()
+    {
+      // Open in app browser
+      window.open('https://docs.google.com/forms/d/1bmHYgkSvPOLyk7HHNKxF6a2XHnh-m3CFgj7bT06hCI4/viewform','_blank'); 
+    };
+})
+
+.controller('UploadCtrl', function($scope) {
+  $scope.openInAppBrowser = function()
+    {
+      // Open in app browser
+      window.open('http://www.hopkinstaxaccounting.com/wp-content/uploads/2014/04/Form-1040-Engagement-Letter.pdf','_blank'); 
+    };
+})
+
+.controller('ScheduleCtrl', function($scope) {
+  $scope.openInAppBrowser = function()
+    {
+      // Open in app browser
+      window.open('https://hopkinstaxaccounting.acuityscheduling.com/schedule.php','_blank'); 
+    };
+})
+
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });
+
