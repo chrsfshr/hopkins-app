@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>android-checkmark-circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.815686275   0 0 0 0 0.823529412   0 0 0 0 0.82745098  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NC---Screen-1" transform="translate(-30.000000, -72.000000)">
+            <g id="Card-Item" transform="translate(20.000000, 59.000000)">
+                <rect id="Background-Card-Item" stroke="#9B9B9B" stroke-width="0.5" fill="#FFFFFF" filter="url(#filter-1)" x="0" y="0" width="280" height="419"></rect>
+                <g id="Header-Cell">
+                    <rect id="Background-Header" stroke="#9B9B9B" stroke-width="0.5" x="0" y="0" width="280" height="55"></rect>
+                    <g id="android-checkmark-circle" transform="translate(10.000000, 13.000000)" fill="#2F83B6">
+                        <path d="M8.84985577,12.1501442 L6.75,14.25 L13.5,21 L28.5,6 L26.4001442,3.90014423 L13.5,16.7248558 L8.84985577,12.1501442 L8.84985577,12.1501442 Z M27,15 C27,21.5998558 21.5997837,27 15,27 C8.40021635,27 3,21.5998558 3,15 C3,8.40014423 8.40014423,3 15,3 C16.125,3 17.25,3.15014423 18.3002885,3.45007212 L20.625,1.125 C18.9001442,0.375 17.0251442,0 15,0 C6.75,0 0,6.75 0,15 C0,23.25 6.75,30 15,30 C23.25,30 30,23.25 30,15 L27,15 L27,15 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
