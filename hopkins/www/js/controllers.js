@@ -62,7 +62,7 @@ angular.module('starter.controllers', [])
   $scope.openInAppBrowser = function()
     {
       // Open in app browser
-      window.open('http://www.hopkinstaxaccounting.com/wp-content/uploads/2014/04/Form-1040-Engagement-Letter.pdf','_blank'); 
+      window.open('https://hopkinstaxaccounting.smartvault.com/secure/SignIn.aspx?ReturnUrl=%2fusers%2fsecure%2fHome.aspx','_blank'); 
     };
 })
 

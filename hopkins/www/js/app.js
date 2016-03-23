@@ -83,20 +83,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     views: {
       'menuContent': {
         templateUrl: 'templates/gaurantee.html',
-        controller: 'CheckListCtrl'
       }
     }
   })
 
- .state('app.playlists', {
-    url: '/playlists',
+ .state('app.home', {
+    url: '/home',
     views: {
       'menuContent': {
-        templateUrl: 'templates/playlists.html'
+        templateUrl: 'templates/home.html'
       }
     }
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/home');
 });
